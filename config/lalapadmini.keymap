@@ -226,8 +226,8 @@
             display-name = "Third";
             bindings = <
 &none                 &none              &none         &none                 &none                  &kp LC(LS(ESC))  &none          &kp C_VOL_UP  &none          &none
-&none                 &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LA(DEL))  &kp C_PREV     &kp C_PLAY    &kp C_NEXT     &none
-&mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE        &none                  &kp LC(LS(END))  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_BRI_DEC  &none
+&none                 &none      &none  &none  &none  &kp LC(LA(DEL))  &kp C_PREV     &kp C_PLAY    &kp C_NEXT     &none
+&none  &none  &none     &none        &none                  &kp LC(LS(END))  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_BRI_DEC  &none
 &trans                &trans                           &trans                &trans                 &trans           &trans                       &trans         &trans
             >;
 

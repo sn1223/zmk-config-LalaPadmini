@@ -137,11 +137,6 @@
             bindings = <&kp TAB>;
             key-positions = <0 1>;
         };
-
-        COMBO_LSHIFT {
-            bindings = <&kp LSHIFT>;
-            key-positions = <30 31>;
-        };
     };
 
     macros {

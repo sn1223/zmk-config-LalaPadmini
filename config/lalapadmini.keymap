@@ -167,6 +167,11 @@
             bindings = <&kp TAB>;
             key-positions = <0 1>;
         };
+
+        COMBO_BSPC {
+            bindings = <&kp BSPC>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
@@ -186,10 +191,10 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp Q      &kp W            &kp E  &kp R        &kp T         &kp Y        &kp U        &kp I       &kp O      &kp P
-&kp A      &kp S            &kp D  &kp F        &kp G         &kp H        &kp J        &kp K       &kp L      &kt ENTER
-&kp Z      &kp X            &kp C  &kp V        &kp B         &kp N        &kp M        &commaexcl  &prdqmark  &underbs
-&kp LCTRL  &mt LSHIFT CLCK         &lt 2 SPACE  &lt 1 DELETE  &lt 1 MINUS  &lt 2 SPACE              &kp LWIN   &lt 3 ESCAPE
+&kp Q      &kp W            &kp E  &kp R        &kp T      &kp Y        &kp U        &kp I       &kp O      &kp P
+&kp A      &kp S            &kp D  &kp F        &kp G      &kp H        &kp J        &kp K       &kp L      &kt ENTER
+&kp Z      &kp X            &kp C  &kp V        &kp B      &kp N        &kp M        &commaexcl  &prdqmark  &underbs
+&kp LCTRL  &mt LSHIFT CLCK         &lt 2 SPACE  &lt 1 DEL  &lt 1 MINUS  &lt 2 SPACE              &kp LWIN   &lt 3 ESC
             >;
         };
 
@@ -220,10 +225,10 @@
         THIRD_LAYER {
             display-name = "Third";
             bindings = <
-&kp EXCLAMATION       &kp AT_SIGN        &kp HASH      &kp DOLLAR            &kp PERCENT            &kp PAGE_UP    &kp HOME  &kp UP_ARROW  &kp END    &kp PRINTSCREEN
-&kp CARET             &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &none
-&mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &mkp MB4  &none         &mkp MB5   &kp RIGHT_SHIFT
-&trans                &trans                           &trans                &trans                 &trans         &trans                  &trans     &trans
+&none                 &none              &none         &none                 &none                  &kp LC(LS(ESC))  &none          &kp C_VOL_UP  &none          &none
+&none                 &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LC(LA(DEL))  &kp C_PREV     &kp C_PLAY    &kp C_NEXT     &none
+&mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE        &none                  &kp LC(LS(END))  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_BRI_DEC  &none
+&trans                &trans                           &trans                &trans                 &trans           &trans                       &trans         &trans
             >;
 
             sensor-bindings = <&none>, <&none>;

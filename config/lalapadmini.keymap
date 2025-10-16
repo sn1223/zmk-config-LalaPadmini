@@ -122,7 +122,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        clck: caps_lock {
+/*        clck: caps_lock {
             compatible = "zmk,behavior-tap-dance";
             label = "CAPS_LOCK";
             #binding-cells = <0>;
@@ -157,7 +157,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
+        }; */
     };
 
     combos {

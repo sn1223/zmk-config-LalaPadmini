@@ -205,8 +205,8 @@
             bindings = <
 &kp GRAVE        &kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPS      &kp AT
 &kp KP_MULTIPLY  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LPAR  &kp RPAR  &kp LBRC   &kp RBRC      &kp LBKT
-&kp KP_DIVIDE    &kp KP_MINUS     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DQT   &kp SQT   &kp COMMA  &kp PERIOD    &kp RBKT
-&trans           &trans                            &trans           &trans           &trans    &trans               &kp LEFT_ALT  &kp KP_PLUS
+&kp KP_DIVIDE    &kp KP_MINUS     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DQT   &kp SQT   &trans     &trans        &kp RBKT
+&trans           &trans                            &trans           &trans           &trans    &trans               &kp LEFT_ALT  &kp CARET
             >;
         };
 
@@ -216,7 +216,7 @@
 &kp HOME          &kp UP       &kp END           &kp PAGE_UP    &kp LC(LS(TAB))  &kp F7        &kp F9         &kp F10           &kp F11            &kp F12
 &kp LEFT          &kp DOWN     &kp RIGHT         &kp PAGE_DOWN  &kp LC(TAB)      &kp F2        &kp F3         &kp F4            &kp F5             &kp F6
 &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(LEFT))  &kp LA(LEFT)   &kp LA(RIGHT)    &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp PIPE
-&trans            &trans                         &trans         &kp PSCRN        &trans        &trans                           &trans             &trans
+&trans            &trans                         &trans         &kp PSCRN        &trans        &trans                           &trans             &kp TILDE
             >;
 
             sensor-bindings = <&none>, <&none>;
@@ -225,10 +225,10 @@
         THIRD_LAYER {
             display-name = "Third";
             bindings = <
-&none                 &none              &none         &none                 &none                  &kp LC(LS(ESC))  &none          &kp C_VOL_UP  &none          &none
-&none                 &none      &none  &none  &none  &kp LC(LA(DEL))  &kp C_PREV     &kp C_PLAY    &kp C_NEXT     &none
-&none  &none  &none     &none        &none                  &kp LC(LS(END))  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_BRI_DEC  &none
-&trans                &trans                           &trans                &trans                 &trans           &trans                       &trans         &trans
+&none   &none   &none  &none   &none   &kp LC(LS(ESC))  &none          &kp C_VOL_UP  &none          &none
+&none   &none   &none  &none   &none   &kp LC(LA(DEL))  &kp C_PREV     &kp C_PLAY    &kp C_NEXT     &none
+&none   &none   &none  &none   &none   &kp LC(LS(END))  &kp C_BRI_INC  &kp C_VOL_DN  &kp C_BRI_DEC  &none
+&trans  &trans         &trans  &trans  &trans           &trans                       &trans         &trans
             >;
 
             sensor-bindings = <&none>, <&none>;

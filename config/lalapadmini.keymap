@@ -149,7 +149,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        /*underbs: underscore_backslash {
+        underbs: underscore_backslash {
             compatible = "zmk,behavior-mod-morph";
             label = "UNDERSCORE_BACKSLASH";
             bindings = <&kp UNDER>, <&kp BACKSLASH>;
@@ -157,7 +157,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT|MOD_RSFT)>;
-        }; */
+        }; 
     };
 
     combos {

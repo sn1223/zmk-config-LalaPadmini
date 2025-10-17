@@ -202,7 +202,7 @@
 
         FIRST_LAYER {
             display-name = "first_layer";
-            sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
+            sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
 &kp GRAVE        &kp KP_NUMBER_0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp HASH  &kp DLLR  &kp PRCNT  &kp AMPS      &kp AT
@@ -214,7 +214,7 @@
 
         SECOND_LAYER {
             display-name = "second_layer";
-            sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
+            sensor-bindings = <&scroll_right_left>, <&scroll_left_right>;
 
             bindings = <
 &kp HOME          &kp UP       &kp END            &kp PAGE_UP    &kp LC(LS(TAB))  &kp F7        &kp F9         &kp F10           &kp F11            &kp F12

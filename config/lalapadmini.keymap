@@ -139,6 +139,11 @@
             bindings = <&kp TAB>;
             key-positions = <0 1>;
         };
+
+        COMBO_BSPC {
+            bindings = <&kp BSPC>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {

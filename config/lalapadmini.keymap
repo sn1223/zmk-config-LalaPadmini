@@ -157,7 +157,7 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT|MOD_RSFT)>;
-        }; 
+        };
     };
 
     combos {
@@ -193,7 +193,7 @@
             bindings = <
 &kp Q      &kp W            &kp E  &kp R        &kp T      &kp Y        &kp U        &kp I       &kp O      &kp P
 &kp A      &kp S            &kp D  &kp F        &kp G      &kp H        &kp J        &kp K       &kp L      &kt ENTER
-&kp Z      &kp X            &kp C  &kp V        &kp B      &kp N        &kp M        &commaexcl  &prdqmark  &kp UNDER
+&kp Z      &kp X            &kp C  &kp V        &kp B      &kp N        &kp M        &commaexcl  &prdqmark  &underbs
 &kp LCTRL  &mt LSHIFT CLCK         &lt 2 SPACE  &lt 1 DEL  &lt 1 MINUS  &lt 2 SPACE              &kp LWIN   &lt 3 ESC
             >;
         };

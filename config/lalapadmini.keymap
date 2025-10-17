@@ -189,8 +189,8 @@
             >;
         };
 
-        SYSTEM_LAYER {
-            display-name = "system_layer";
+        THIRD_LAYER {
+            display-name = "Third_layer";
             sensor-bindings = <&volume_up_down>, <&volume_up_down>;
 
             bindings = <

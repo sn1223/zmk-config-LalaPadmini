@@ -189,7 +189,7 @@
         compatible = "zmk,keymap";
 
         DEFAULT_LAYER {
-            display-name = "Default";
+            display-name = "default";
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
@@ -213,7 +213,7 @@
         };
 
         SECOND_LAYER {
-            display-name = "Second_layer";
+            display-name = "second_layer";
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
@@ -225,7 +225,7 @@
         };
 
         THIRD_LAYER {
-            display-name = "Third_layer";
+            display-name = "third_layer";
             sensor-bindings = <&volume_up_down>, <&volume_up_down>;
 
             bindings = <

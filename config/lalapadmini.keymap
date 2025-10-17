@@ -133,7 +133,7 @@
             tapping-term-ms = <100>;
         };
 
-        /*commaexcl: comma_exclamation {
+        commaexcl: comma_exclamation {
             compatible = "zmk,behavior-mod-morph";
             label = "COMMA_EXCLAMATION";
             bindings = <&kp COMMA>, <&kp EXCL>;
@@ -142,7 +142,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        prdqmark: period_question-mark {
+        /*prdqmark: period_question-mark {
             compatible = "zmk,behavior-mod-morph";
             label = "PERIOD QUESTION-MARK";
             bindings = <&kp PERIOD>, <&kp QMARK>;

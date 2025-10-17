@@ -179,14 +179,14 @@
 
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
-            bindings = <
-&kp EXCLAMATION       &kp AT_SIGN        &kp HASH      &kp DOLLAR            &kp PERCENT            &kp PAGE_UP    &kp HOME  &kp UP_ARROW  &kp END    &kp PRINTSCREEN
-&kp CARET             &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &none
-&mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &mkp MB4  &none         &mkp MB5   &kp RIGHT_SHIFT
-&trans                &trans                           &trans                &trans                 &trans         &trans                  &trans     &trans
-            >;
-
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
+
+            bindings = <
+&kp HOME          &kp UP       &kp END           &kp PAGE_UP    &kp LC(LS(TAB))  &kp F7        &kp F9         &kp F10           &kp F11            &kp F12
+&kp LEFT          &kp DOWN     &kp RIGHT         &kp PAGE_DOWN  &kp LC(TAB)      &kp F2        &kp F3         &kp F4            &kp F5             &kp F6
+&kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(LEFT))  &kp LA(LEFT)   &kp LA(RIGHT)    &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp PIPE
+&trans            &trans                         &trans         &kp PSCRN        &trans        &trans                           &trans             &kp TILDE
+            >;
         };
 
         SYSTEM_LAYER {

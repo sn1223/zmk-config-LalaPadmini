@@ -6,9 +6,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT_LAYER   0
-#define FIRST_LAYER 1
-#define SECOND_LAYER  2
-#define THIRD_LAYER    3
+#define FIRST_LAYER     1
+#define SECOND_LAYER    2
+#define THIRD_LAYER     3
 #define MOUSE_R_LAYER   4
 #define SCROLL_R_LAYER  5
 #define MOUSE_L_LAYER   6
@@ -124,14 +124,43 @@
             bindings = <&kp>, <&kp>;
         };
 
-        tap_dance_layer_1and2: tap_dance_layer_1and2 {
+        /*        clck: caps_lock {
             compatible = "zmk,behavior-tap-dance";
-            label = "td_mo12";
+            label = "CAPS_LOCK";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 2>;
-        };
-    };
+            bindings = <&kp CLCK>, <&kp CLCK>;
 
+            tapping-term-ms = <100>;
+        };
+
+        commaexcl: comma_exclamation {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COMMA_EXCLAMATION";
+            bindings = <&kp COMMA>, <&kp EXCL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        prdqmark: period_question-mark {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PERIOD QUESTION-MARK";
+            bindings = <&kp PERIOD>, <&kp QMARK>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        underbs: underscore_backslash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "UNDERSCORE_BACKSLASH";
+            bindings = <&kp UNDER>, <&kp BACKSLASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
+        }; */
+    };
     combos {
         compatible = "zmk,combos";
 
